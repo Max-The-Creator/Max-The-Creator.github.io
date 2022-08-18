@@ -214,6 +214,12 @@ i.scroll:hover {
 
 @media (max-width: 768px) {
 	
+  html,
+  body {
+  height: 100%;
+  width: 100%;
+  }
+  
   .header {
   max-width: 100%;
 	background: url('../img/azuki.JPG') no-repeat center center scroll;
