@@ -214,19 +214,15 @@ i.scroll:hover {
 
 @media (max-width: 768px) {
 	
-  html,
-  body {
-  height: 100%;
-  width: 100%;
-  }
-
   .header {
   max-width: 390px;
 	background: url('../img/azuki.JPG') no-repeat center center scroll;
+  background-size: contain;
   }
 
   .callout {
-	background: url(../img/hand.jpg) no-repeat center center scroll; 
+	background: url(../img/hand.jpg) no-repeat center center scroll;
+  background-size: contain; 
   }
 
   .map {
