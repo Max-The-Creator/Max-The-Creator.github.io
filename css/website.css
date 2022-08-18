@@ -111,7 +111,7 @@ body {
 .header {
   display: table;
   height: 100%;
-  width: 100%;
+  max-width: 100%;
   position: relative;
   background: url('../img/sitting.jpeg') no-repeat center center fixed; 
   -webkit-background-size: cover;
