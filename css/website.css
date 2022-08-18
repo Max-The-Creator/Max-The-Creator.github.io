@@ -215,13 +215,8 @@ i.scroll:hover {
 @media (max-width: 768px) {
 	
   .header {
-	background: url('../img/responsive.jpeg') no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed; 
+  max-width: 100%;
+	background: url('../img/sitting.jpeg') no-repeat center center scroll;
   }
 
   .callout {
