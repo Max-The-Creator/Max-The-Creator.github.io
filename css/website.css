@@ -141,7 +141,7 @@ body {
 }
 
 i.about-icon {
-  border: 3px solid #ffffff;
+  border: 3px solid black;
   border-radius: 50%;
   display: inline-block;
   font-size: 56px;
@@ -164,22 +164,6 @@ i.about-icon {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-/* Gallery */
-
-.gallery {
-  padding: 50px 0;
-  background-color: black;
-  color: antiquewhite;
-}
-
-.gallery-item {
-  margin-bottom: 25px;
-}
-
-.gallery-portfolio {
-  margin: 0 auto;
 }
 
 
