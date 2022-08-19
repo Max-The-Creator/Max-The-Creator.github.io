@@ -118,8 +118,6 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
 }
 
 /* Intro */
@@ -215,14 +213,16 @@ i.scroll:hover {
 @media (max-width: 768px) {
 	
   .header {
-  max-width: 390px;
-	background: url('../img/azuki.JPG') no-repeat center center scroll;
-  background-size: contain;
+	background: url('../img/sitting.jpeg') no-repeat center center scroll;
+  width: 200px;
+  }
+
+  .vert-text  {
+  font-size: 89%;
   }
 
   .callout {
 	background: url(../img/hand.jpg) no-repeat center center scroll;
-  background-size: contain; 
   }
 
   .map {
