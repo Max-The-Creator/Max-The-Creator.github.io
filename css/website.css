@@ -212,13 +212,13 @@ i.scroll:hover {
 
 @media (max-width: 768px) {
 	
+
   .header {
 	background: url('../img/sitting.jpeg') no-repeat center center scroll;
-  width: 200px;
   }
 
   .vert-text  {
-  font-size: 89%;
+  font-size: 60%;
   }
 
   .callout {
